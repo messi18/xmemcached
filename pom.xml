@@ -46,7 +46,16 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</repository>
-		<repository>
+        <repository>
+            <id>central</id>
+            <name>Maven Repository Switchboard</name>
+            <layout>default</layout>
+            <url>http://repo1.maven.org/maven2</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <repository>
 			<id>hibernate-memcached</id>
 			<name>hibernate-memcached</name>
 			<url>http://raykrueger.googlecode.com/svn/repository</url>
@@ -111,7 +120,7 @@
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
-			<version>1.5.6</version>
+			<version>1.7.5</version>
 		</dependency>
 		<dependency>
 			<groupId>log4j</groupId>
